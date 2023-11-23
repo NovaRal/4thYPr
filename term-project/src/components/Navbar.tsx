@@ -23,11 +23,9 @@ export function Navbar() {
           </Nav.Link>
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link to="/signUp" as={NavLink}>
-            SignUp
-          </Nav.Link>
+          
           <Nav.Link to="/logIn" as={NavLink}>
-            LogIn 
+            LogIn
           </Nav.Link>
         </Nav>
         <Button

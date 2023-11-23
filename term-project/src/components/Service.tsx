@@ -1,5 +1,7 @@
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+//import "src/pages/CSS/home.css";
+import "../pages/CSS/home.css";
 type ServiceProps = {
   id: number;
   name: string;
