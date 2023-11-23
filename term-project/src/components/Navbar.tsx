@@ -18,8 +18,8 @@ export function Navbar() {
           <Nav.Link to="/links" as={NavLink}>
             Links
           </Nav.Link>
-          <Nav.Link to="/remainders" as={NavLink}>
-            Remainders
+          <Nav.Link to="/reminders" as={NavLink}>
+            Reminders
           </Nav.Link>
         </Nav>
         <Nav className="ml-auto">
