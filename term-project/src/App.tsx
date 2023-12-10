@@ -4,7 +4,7 @@ import { Home } from "./pages/Home";
 import Documents from "./pages/Documents";
 import { Tutorials } from "./pages/Tutorials";
 import { Links } from "./pages/Links";
-import { Remainders } from "./pages/Remainders";
+import { Reminders } from "./pages/Reminders";
 import { Navbar } from "./components/Navbar"
 import { SignUp } from "./pages/SignUp"
 import LogIn from './pages/LogIn';
@@ -20,7 +20,7 @@ function App() {
         <Route path="/documents" element={<Documents />} />
         <Route path="/tutorials" element={<Tutorials />} />
         <Route path="/links" element={<Links />} />
-        <Route path="/remainders" element={<Remainders />} />
+        <Route path="/reminders" element={<Reminders />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/logIn" element={<LogIn />} />
       </Routes>

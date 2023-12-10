@@ -4,13 +4,7 @@ import { Service } from "../components/Service";
 import "./CSS/home.css";
 export function Home() {
   return (
-    <>
-      <div className="bg1">
-        <h1 >Home</h1>
-        <p className="para">
-          Welcome to the page this is exclusively for helping out elderly with
-          the internet.Feel free to explore the page.
-        </p>
+    <div className="p-4">
         <Row md={1} xs={1} lg={2} className="g-5">
           {services.map((item) => (
             <Col key={item.id}>
@@ -18,7 +12,6 @@ export function Home() {
             </Col>
           ))}
         </Row>
-      </div>
-    </>
+    </div>
   );
-}
+}  
