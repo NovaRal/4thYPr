@@ -8,19 +8,19 @@
     {
         "id": 2,
         "name": "Tutorials",
-        "imgUrl": "/images/tutorials.png",
+        "imgUrl": "/images/tutorials.jpeg",
         "link": "/tutorials"
     },
     {
         "id": 3,
         "name": "Links",
-        "imgUrl": "/images/links.png",
+        "imgUrl": "/images/links.jpeg",
         "link": "/links"
     },
     {
         "id": 4,
-        "name": "Remainders",
-        "imgUrl": "/images/remainders.png",
-        "link": "/remainders"
+        "name": "Reminders",
+        "imgUrl": "/images/reminder.jpeg",
+        "link": "/Reminders"
     }
 ]
