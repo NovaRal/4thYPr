@@ -10,7 +10,7 @@ export function Tutorials() {
           <div className="container">
             <div>
               <img
-                src="src/pages/Phonepe Logo Png - Phonepe Logo Transparent Background, Png Download - vhv.jpeg"
+                src="src/assets/Phonepe Logo Png - Phonepe Logo Transparent Background, Png Download - vhv.jpeg"
                 alt="logo"
                 className="image"
               />
@@ -22,7 +22,8 @@ export function Tutorials() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/watch?v=2ky-tWGD13Q"
+            src={`https://youtube.com/embed/2ky-tWGD13Q?autoplay=0`}
+            // src="https://www.youtube.com/watch?v=2ky-tWGD13Q"
             title="React Tutorial 1"
             frameBorder="0"
             allowFullScreen
@@ -56,7 +57,8 @@ export function Tutorials() {
           <iframe
             width="560"
             height="315"
-            src="https://youtu.be/htLwP95Ot7M?si=1Qc_OmIh3Q13HLFf"
+            src={`https://youtube.com/embed/htLwP95Ot7M?autoplay=0`}
+            //src="https://youtu.be/htLwP95Ot7M?si=1Qc_OmIh3Q13HLFf"
             title="JavaScript Tutorial 1"
             frameBorder="0"
             allowFullScreen
